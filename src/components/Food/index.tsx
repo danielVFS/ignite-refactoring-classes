@@ -15,7 +15,7 @@ export interface FoodData {
 
 interface FoodProps {
   food: FoodData;
-  handleEditFood: (food: FoodData) => Promise<void>;
+  handleEditFood: (food: FoodData) => void;
   handleDelete: (id: number) => Promise<void>;
 }
 
